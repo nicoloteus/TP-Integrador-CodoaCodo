@@ -1,0 +1,55 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Encabezado con Carrusel */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Sección de Oradores */
+#speakers {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    text-align: center;
+}
+
+/* Sección de Imagen y Texto */
+#location {
+    padding: 50px 0;
+}
+
+/* Sección de Conviértete en Orador */
+#become-speaker {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+/* Pie de página */
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
